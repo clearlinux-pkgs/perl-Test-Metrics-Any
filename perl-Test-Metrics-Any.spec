@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Metrics-Any
 Version  : 0.01
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz
 Summary  : 'assert that code produces metrics via L<Metrics::Any>'
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Test-Metrics-Any-license = %{version}-%{release}
 Requires: perl-Test-Metrics-Any-perl = %{version}-%{release}
+Requires: perl(Metrics::Any::Adapter)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Metrics::Any::Adapter)
 BuildRequires : perl(Metrics::Any::Adapter::Test)

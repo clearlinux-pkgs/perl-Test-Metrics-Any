@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-Metrics-Any
 Version  : 0.01
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz
 Summary  : 'assert that code produces metrics via L<Metrics::Any>'
@@ -93,4 +93,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Test/Metrics/Any.pm
+/usr/lib/perl5/*

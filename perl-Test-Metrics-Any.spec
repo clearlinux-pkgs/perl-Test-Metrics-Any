@@ -7,7 +7,7 @@
 #
 Name     : perl-Test-Metrics-Any
 Version  : 0.01
-Release  : 21
+Release  : 22
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Metrics-Any-0.01.tar.gz
 Summary  : 'assert that code produces metrics via L<Metrics::Any>'
